@@ -1,13 +1,25 @@
-# chat-example
+# Dynamic Chat Room Example with Socket.io
 
-This is the source code for a very simple chat example used for
-the [Getting Started](http://socket.io/get-started/chat/) guide
-of the Socket.IO website.
+Install dependencies
 
-Please refer to it to learn how to run this application.
+```
+npm install
+```
 
-You can also spin up a free Heroku dyno to test it out:
+Run with
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
+```
+npm start
+```
 
-Besides, the application is deployed on [Now](https://zeit.co/now): https://socketio-chat-example.now.sh/
+Open in your browser
+
+```
+http://localhost:3000
+```
+
+If you want to chat per room, change the roomID bellow with any string
+
+```
+http://localhost:3000/?roomID
+```
